@@ -1,0 +1,102 @@
+body{
+    background-color: aliceblue ;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+nav{
+    background-color: rgb(107, 142, 196);
+    height: 50px;
+   padding: 10px;
+   text-align: center;
+   border: 2px solid black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav div {
+    display: inline;
+    margin: 20px;
+    overflow: hidden;
+}
+nav div :hover{
+    border: 2px solid white;
+    height: 20px;
+}
+#lo{
+    
+    float: right;
+    
+}
+#home ul { 
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+    
+    margin: 50px;
+    border: 2px solid rgb(24, 20, 20);
+    border-radius: px;
+
+}
+#home ul div {
+    border: 2px solid black;
+    margin-right: 10px;
+}
+#home ul div p:hover{
+    border: 2px solid black;
+    visibility: visible;
+    border-radius: 10px;
+}
+#cv {
+    border: 2px solid rgb(24, 20, 20);
+    margin: 50px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+#cv div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+#form{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px;}
+.cvv{
+    display: flex;
+    margin: 20px;
+  
+   
+}
+footer{
+    background-color: rgb(107, 142, 196);
+    display: flex;
+    justify-content: space-around;
+    height: 50;
+    border: 2px solid black;
+}
+footer div {
+    margin: 20px;
+}
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+.pp{
+    visibility: hidden;
+}
+.p:hover .pp{
+    visibility: visible;
+}
